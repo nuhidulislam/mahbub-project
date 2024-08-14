@@ -447,6 +447,7 @@ height: 100%;
 .awesome-card-container{
   display: flex;
   width: 1100px;
+  height: 600px;
   margin: 0px auto;
   margin-top: 15px;
   justify-content: space-between;
@@ -524,6 +525,7 @@ background: white;
 }
 .clients-cards-container{
   max-width: 1100px;
+  height: 500px;
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
@@ -618,6 +620,9 @@ border-radius: 10px;
   align-items: center;
   justify-content: space-between;
 }
+.name-card-container{
+  cursor: pointer;
+}
 
 /* name section style end here */
 
@@ -674,7 +679,7 @@ border-radius: 10px;
 .btn-subscriber{
       width: 111px;
     height: 37px;
-  padding: 10px 20px;
+  padding: 10px 22px;
   font-size: 10px;
   border-radius: 30px;
   background:#00B207 ;
@@ -807,16 +812,238 @@ hr{
   font-size: 30px;
 }
 
-.send-money{
-  color: white;
-  font-size: 30px;
+
+
+.send-money  img{
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 
 }
+.nav-option-mobile{
+  height: 120px;
+  width: 100%;
 
-.send-money > i{
-  margin-left: 10px;
-
+  display: flex;
+  justify-content: space-between;
 }
 
+.nav-option-mobile{
+  display: none;
+}
+
+
+.nav-option-left{
+
+  display: flex;
+}
+.nav-option-right{
+  /* align-items: center; */
+  justify-content: center;
+
+  display: flex;
+}
+.phone{
+  display: none;
+}
+
+.phone-number p{
+  width: 120px;
+
+
+}
+.phone-img {
+  width: 50px;
+  height: 50px;
+}
+
+.phone-img img{
+  width: 30px;
+  height: 30px;
+ 
+
+}
+.phone{
+
+  display: flex;
+}
 /* footer section style end here */
+
+
+@media screen and (max-width:576px) {
+  .over-nav{
+    flex-direction: column;
+    max-width: 100%;
+    text-align: center;
+  }
+  .over-nav-option{
+    align-items: center;
+    justify-content: center;
+
+  }
+  .over-nav-container{
+    flex-direction: column;
+   width: 100%;
+ 
+  }
+  .awesome-card{
+    width: 80%;
+    margin-top: 10px;
+  }
+  .awesome-card-container{
+    width: 500px;
+    display: flex;
+    align-items: center;
+
+  }
+  .nav-heading-container{
+    flex-direction: column;
+    height: 175px;
+  }
+  .nav-2{
+    flex-direction: column;
+    width: 100%;
+   
+  }
+  .subscriber-icon{
+    margin-bottom: 15px;
+    
+  }
+  .nav-2-bg{
+    height: 115px;
+  }
+  .delivery-section-left{
+    width: 100%;
+    padding: 15px;
+  }
+  .trusted-1{
+    flex-direction: column;
+    height: 1000px;
+    width: 90%;
+  }
+  .trusted-left {
+    width: 100%;
+  }
+  .trusted-right {
+    width: 90%;
+  }
+  .delivery-section-right{
+    width: 100%;
+  }
+  hr{
+    width: 100%;
+  }
+  .awesome-section-heading{
+    width: 100%;
+  }
+  .rice-section-container{
+    height: 1100px;
+    flex-direction: column;
+  }
+  .rice-section{
+    flex-direction: column;
+  }
+  .bg-rice{
+    height: 467px;
+  }
+  .delivery-section-container {
+    height: 1000px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .awesome-card-container {
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .phone-mobile{
+ margin-left: 10px;
+    display: flex;
+
+   
+
+
+ 
+  }
+  .rice-section{
+    width: 100%;
+  }
+  .rice-section-left{
+    width: 100%;
+  }
+  .rice-section-right {
+    width: 100%;
+  }
+  .awesome-section-container{
+    height: 1850px;
+    width: 100%;
+  }
+  .client-bg {
+    height: 1300px;
+  }
+  .clients-cards-container {
+    flex-direction: column;
+    height: 1100px;
+    align-items: center;
+  }
+  .name-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 272px;
+    width: 90%;
+  }
+  .subscriber-section{
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+  }
+  .subscriber-rigth-section {
+    flex-direction: column;
+  }
+  .subscriber-container{
+    height: 360px;
+  }
+  .subscriber-text {
+    width: 90%;
+}
+.footer-container{
+  flex-direction: column;
+
+  height: 1290px;
+  align-items: center;
+
+}
+footer{
+  height: 1500px;
+}
+.send-money{
+  display: flex;
+  margin-top: 10px;
+}
+.footer-end-container{
+  flex-direction: column;
+}
+.nav-option{
+  display: none;
+}
+.nav-option-left{
+  align-items: center;
+  justify-content: center;
+ padding: 15px 0px;
+}
+
+
+.nav-option-mobile{
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.phone{
+  display: none;
+}
+/* .phone-mobile{
+  display: block;
+} */
+}
 

@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image: linear-gradient(to right, red , blue);
- 
-  background-repeat: no-repeat;
-
-  background-size: cover;
+ background-image: url(images/popup.png);
+ border: 2px solid red;
+ background-repeat: no-repeat;
 }

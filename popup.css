@@ -1068,7 +1068,7 @@ hr {
   width: 100%;
 }
 .popup{
-  /* height: 400px; */
+  height: 400px;
   width:800px ;
   display: flex;
   padding: 8px;
@@ -1088,7 +1088,7 @@ hr {
 .popup-right{
   width: 60%;
   height: 100%;
- 
+
   background: white;
   text-align: center;
 padding: 5px;
@@ -1151,14 +1151,9 @@ padding-top: 5px;
   justify-content: center;
   gap: 20px;
   margin-top: 10px; 
-  border: 2px solid red;
 }
-.checkk{
-  border: 2px solid red;
-}
-.description{
-  border: 2px solid red;
-}
+
+
 
 
 
